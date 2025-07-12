@@ -43,3 +43,4 @@ bash
 Copy
 Edit
 poetry install
+poetry install
