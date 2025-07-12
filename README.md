@@ -93,6 +93,10 @@ pubmed-cli/
 - [PubMed E-utilities API](https://www.ncbi.nlm.nih.gov/books/NBK25501/)
 
 ---
+🧠 Version Control:
+This project uses Git for version control and is hosted on GitHub.
+
+---
 
 ## 🧠 Heuristics for Non-Academic Affiliation
 
