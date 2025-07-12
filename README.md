@@ -35,7 +35,6 @@ Each row in the CSV will have:
 ```bash
 git clone https://github.com/praveenkomati/pubmed-cli.git
 cd pubmed-cli
-poetry install
 2. Install Dependencies Using Poetry
 Make sure you have Poetry installed.
 
@@ -43,4 +42,55 @@ bash
 Copy
 Edit
 poetry install
-poetry install
+🚀 How to Use
+Basic Command:
+bash
+Copy
+Edit
+poetry run python main.py -q "cancer AND AI" -f cancer_ai.csv
+Optional Flags:
+-d or --debug: Print debug output
+
+-f or --file: Save results to a CSV file
+
+-q or --query: Search query for PubMed
+
+🧪 Tools & Libraries Used
+Python
+
+Poetry
+
+requests
+
+lxml
+
+PubMed E-utilities API
+
+📂 Project Structure
+pgsql
+Copy
+Edit
+pubmed-cli/
+├── main.py
+├── pubmed/
+│   ├── __init__.py
+│   ├── fetch.py
+│   └── utils.py
+├── pyproject.toml
+├── poetry.lock
+├── results.csv (sample output)
+└── README.md
+✅ Author
+Praveen Komati
+GitHub: praveenkomati
+
+📝 License
+This project is for educational/demo purposes only.
+
+yaml
+Copy
+Edit
+
+---
+
+Let me know if you also want to include the **top part** (title, description, features, output format) too.
