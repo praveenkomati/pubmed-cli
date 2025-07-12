@@ -35,3 +35,11 @@ Each row in the CSV will have:
 ```bash
 git clone https://github.com/praveenkomati/pubmed-cli.git
 cd pubmed-cli
+poetry install
+2. Install Dependencies Using Poetry
+Make sure you have Poetry installed.
+
+bash
+Copy
+Edit
+poetry install
